@@ -35,3 +35,22 @@ project-folder
 ├── package.json       # Project metadata and dependencies
 └── README.md          # Project documentation (this file)
 ```
+
+## Scripts
+
+In the `package.json` file, the following scripts are defined:
+
+```json
+"scripts": {
+  "scrapper": "node index.js",
+  "dev": "nodemon index.js"
+}
+```
+
+```json
+npm run dev
+```
+
+```json
+npm run scrapper
+```
